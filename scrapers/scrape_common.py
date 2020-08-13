@@ -29,17 +29,20 @@ class InfectionSourceData:
 
     def __str__(self):
         res = []
-        if self.date is not None:
-            res.append(self.date.isoformat())
-        else:
-            res.append('')
-        res.append(self.date_from or '')
-        res.append(self.date_to or '')
+        res.append(self.__get_date(self.date))
+        res.append(self.__get_date(self.date_from))
+        res.append(self.__get_date(self.date_to))
         res.append(self.canton)
         res.append(self.source or '')
         res.append(self.count or '')
         res.append(self.url)
         return InfectionSourceData.SEPARATOR.join(res)
+
+    @staticmethod
+    def __get_date(date):
+        if date is not None:
+            return date.isoformat()
+        return ''
 
     @staticmethod
     def header():
