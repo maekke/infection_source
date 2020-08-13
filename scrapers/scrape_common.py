@@ -15,6 +15,7 @@ class InfectionSourceData:
         self.url = url
         self.timestamp = datetime.datetime.utcnow()
         self.date = None
+        self.time = None
         self.date_from = None
         self.date_to = None
         self.source = None
@@ -29,9 +30,10 @@ class InfectionSourceData:
 
     def __str__(self):
         res = []
-        res.append(self.__get_date(self.date))
-        res.append(self.__get_date(self.date_from))
-        res.append(self.__get_date(self.date_to))
+        res.append(self.date or '')
+        res.append(self.time or '')
+        res.append(self.date_from or '')
+        res.append(self.date_to or '')
         res.append(self.canton)
         res.append(self.source or '')
         res.append(self.count or '')
@@ -48,6 +50,7 @@ class InfectionSourceData:
     def header():
         res = []
         res.append('date')
+        res.append('time')
         res.append('date_from')
         res.append('date_to')
         res.append('canton')

@@ -35,5 +35,6 @@ for row in reader:
 assert date is not None
 print(sc.InfectionSourceData.header())
 for item in data:
-    item.date = date
+    item.date = date.date().isoformat()
+    item.time = date.time().isoformat()
     print(item)

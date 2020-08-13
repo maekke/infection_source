@@ -8,7 +8,7 @@ import scrape_common as sc
 
 
 def parse_date(date_str):
-    return datetime.datetime.strptime(date_str, '%Y-%m-%d')
+    return datetime.datetime.strptime(date_str, '%Y-%m-%d').date().isoformat()
 
 
 url = 'https://raw.githubusercontent.com/openZH/covid_19_contact_tracing_ZH/master/data/Ansteckungswege.csv'
