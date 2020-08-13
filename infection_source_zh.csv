@@ -1,4 +1,18 @@
 date,time,date_from,date_to,canton,source,count,url
+,,2020-07-15,2020-07-28,ZH,Nicht eindeutig,198,https://raw.githubusercontent.com/openZH/covid_19_contact_tracing_ZH/master/data/Ansteckungswege.csv
+,,2020-07-15,2020-07-28,ZH,Eigener Haushalt,48,https://raw.githubusercontent.com/openZH/covid_19_contact_tracing_ZH/master/data/Ansteckungswege.csv
+,,2020-07-15,2020-07-28,ZH,Arbeitsplatz,15,https://raw.githubusercontent.com/openZH/covid_19_contact_tracing_ZH/master/data/Ansteckungswege.csv
+,,2020-07-15,2020-07-28,ZH,Im Haushalt von Freunden / Familie,11,https://raw.githubusercontent.com/openZH/covid_19_contact_tracing_ZH/master/data/Ansteckungswege.csv
+,,2020-07-15,2020-07-28,ZH,Internationale Reise,8,https://raw.githubusercontent.com/openZH/covid_19_contact_tracing_ZH/master/data/Ansteckungswege.csv
+,,2020-07-15,2020-07-28,ZH,Pflegeheim,5,https://raw.githubusercontent.com/openZH/covid_19_contact_tracing_ZH/master/data/Ansteckungswege.csv
+,,2020-07-15,2020-07-28,ZH,Krippe,4,https://raw.githubusercontent.com/openZH/covid_19_contact_tracing_ZH/master/data/Ansteckungswege.csv
+,,2020-07-15,2020-07-28,ZH,Restaurant,4,https://raw.githubusercontent.com/openZH/covid_19_contact_tracing_ZH/master/data/Ansteckungswege.csv
+,,2020-07-15,2020-07-28,ZH,Club / Bar,2,https://raw.githubusercontent.com/openZH/covid_19_contact_tracing_ZH/master/data/Ansteckungswege.csv
+,,2020-07-15,2020-07-28,ZH,Verein,2,https://raw.githubusercontent.com/openZH/covid_19_contact_tracing_ZH/master/data/Ansteckungswege.csv
+,,2020-07-15,2020-07-28,ZH,Medizin. Einrichtung,1,https://raw.githubusercontent.com/openZH/covid_19_contact_tracing_ZH/master/data/Ansteckungswege.csv
+,,2020-07-15,2020-07-28,ZH,Sport im Freien,1,https://raw.githubusercontent.com/openZH/covid_19_contact_tracing_ZH/master/data/Ansteckungswege.csv
+,,2020-07-15,2020-07-28,ZH,Sportverein,1,https://raw.githubusercontent.com/openZH/covid_19_contact_tracing_ZH/master/data/Ansteckungswege.csv
+,,2020-07-15,2020-07-28,ZH,Ohne Angabe,4,https://raw.githubusercontent.com/openZH/covid_19_contact_tracing_ZH/master/data/Ansteckungswege.csv
 ,,2020-07-28,2020-08-10,ZH,Nicht eindeutig,259,https://raw.githubusercontent.com/openZH/covid_19_contact_tracing_ZH/master/data/Ansteckungswege.csv
 ,,2020-07-28,2020-08-10,ZH,Eigener Haushalt,78,https://raw.githubusercontent.com/openZH/covid_19_contact_tracing_ZH/master/data/Ansteckungswege.csv
 ,,2020-07-28,2020-08-10,ZH,Im Haushalt von Freunden / Familie,18,https://raw.githubusercontent.com/openZH/covid_19_contact_tracing_ZH/master/data/Ansteckungswege.csv
