@@ -33,7 +33,6 @@ for row in reader:
             date = parse_date(res[1])
 
 assert date is not None
-print(sc.InfectionSourceData.header())
 for item in data:
     item.date = date.date().isoformat()
     item.time = date.time().isoformat()

@@ -25,7 +25,6 @@ h2 = soup.find(string=re.compile('Verlauf Ansteckungsorte')).find_parent('h2')
 
 subcat = h2.find_next('div')
 categories = subcat.findChildren('h2')
-print(sc.InfectionSourceData.header())
 for category in categories:
     cat = category.text
     accordion = category.find_next('div')
