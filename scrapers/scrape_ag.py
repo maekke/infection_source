@@ -14,28 +14,22 @@ def parse_date(date_str):
 def scrape_ag():
     url = 'https://www.ag.ch/de/themen_1/coronavirus_2/lagebulletins/lagebulletins_1.jsp'
     content = sc.download(url)
+    content = BeautifulSoup(content, 'html.parser')
 
-    soup = BeautifulSoup(content, 'html.parser')
-
-    h2 = soup.find(string=re.compile('Verlauf Ansteckungsorte')).find_parent('h2')
-
-    subcat = h2.find_next('div')
-    categories = subcat.findChildren('h2')
-    for category in categories:
-        cat = category.text
-        accordion = category.find_next('div')
-        table_wrapper = accordion.findChild('div')
+    subcat = content.find(string=re.compile('Verlauf Ansteckungsorte')).find_parent('h2').find_next('div')
+    for category in subcat.findChildren('h2'):
+        table_wrapper = category.find_next('div').findChild('div')
         table = table_wrapper.findChild('table')
         trs = table.findChildren('tr')
-        n = len(trs)
-        assert n > 0
+        n_trs = len(trs)
+        assert n_trs > 0
         # skip header tr
-        for i in range(1, n):
-            tr = trs[i]
-            tds = tr.findChildren('td')
+        for i in range(1, n_trs):
+            row = trs[i]
+            tds = row.findChildren('td')
             isd = sc.InfectionSourceData('AG', url)
             isd.date = parse_date(tds[0].text).date().isoformat()
-            isd.source = cat
+            isd.source = category.text
             isd.count = tds[2].text
             print(isd)
 
