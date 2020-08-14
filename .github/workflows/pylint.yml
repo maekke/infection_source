@@ -13,5 +13,5 @@ jobs:
       - name: run pylint
         shell: bash
         run: |
-          cd scapers
+          cd scrapers
           pylint *.py
