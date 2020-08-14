@@ -10,7 +10,7 @@ jobs:
       - name: install pylint and required pip packages
         run: |
           pip install pylint
-          pip install beautifulsoup
+          pip install beautifulsoup4
           pip install requests
 
       - name: run pylint
