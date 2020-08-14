@@ -1,19 +1,14 @@
 #!/usr/bin/env python
 
 import re
-import datetime
+import arrow
 from bs4 import BeautifulSoup
 
 import scrape_common as sc
 
 
 def parse_date(date_str):
-    # TODO improve this..
-    date_str = date_str.split(',')[1]
-    date_str = date_str.strip()
-    date_str = date_str.replace('Juli', '07.')
-    date_str = date_str.replace('August', '08.')
-    return datetime.datetime.strptime(date_str, '%d. %m. %Y')
+    return arrow.get(date_str, 'D. MMMM YYYY', locale='de_CH').datetime
 
 
 URL = 'https://www.ag.ch/de/themen_1/coronavirus_2/lagebulletins/lagebulletins_1.jsp'
