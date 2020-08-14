@@ -11,7 +11,6 @@ def parse_date(date_str):
     return arrow.get(date_str, 'D. MMMM YYYY', locale='de_CH').datetime
 
 
-    table = table_wrapper.findChild('table')
 def scrape_ag():
     url = 'https://www.ag.ch/de/themen_1/coronavirus_2/lagebulletins/lagebulletins_1.jsp'
     content = sc.download(url)
