@@ -5,6 +5,8 @@ import requests
 
 
 class InfectionSourceData:
+    # pylint: disable=too-many-instance-attributes
+
     __init_done = False
     SEPARATOR = ','
 
