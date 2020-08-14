@@ -11,11 +11,11 @@ def parse_date(date_str):
     return datetime.datetime.strptime(date_str, '%Y-%m-%d').date().isoformat()
 
 
-url = 'https://raw.githubusercontent.com/openZH/covid_19_contact_tracing_ZH/master/data/Ansteckungswege.csv'
-content = sc.download(url)
+URL = 'https://raw.githubusercontent.com/openZH/covid_19_contact_tracing_ZH/master/data/Ansteckungswege.csv'
+content = sc.download(URL)
 reader = csv.DictReader(StringIO(content), delimiter=',')
 for row in reader:
-    isd = sc.InfectionSourceData('ZH', url)
+    isd = sc.InfectionSourceData('ZH', URL)
     isd.date_from = parse_date(row['from'])
     isd.date_to = parse_date(row['until'])
     isd.source = row['context_cat']

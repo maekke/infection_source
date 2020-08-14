@@ -15,13 +15,13 @@ def parse_date(date_str):
 data = []
 date = None
 
-url = 'https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/daten/themen/result-themen-14-03-05.csv'
-content = sc.download(url)
+URL = 'https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/daten/themen/result-themen-14-03-05.csv'
+content = sc.download(URL)
 reader = csv.DictReader(StringIO(content), delimiter=',')
 for row in reader:
     source = row['Ansteckungsquelle']
     if source != 'NA':
-        isd = sc.InfectionSourceData('ZG', url)
+        isd = sc.InfectionSourceData('ZG', URL)
         isd.source = source
         isd.count = row['Anzahl']
         data.append(isd)
