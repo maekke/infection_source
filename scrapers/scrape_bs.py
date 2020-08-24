@@ -8,7 +8,7 @@ from bs4 import BeautifulSoup
 import scrape_common as sc
 
 
-def parse_date(date_str):
+def parse_bs_date(date_str):
     return arrow.get(date_str, 'D. MMMM YYYY', locale='de_CH').datetime
 
 
@@ -92,8 +92,8 @@ def parse_weekly_bulletin(url):
     res = re.match(r'Im Zeitraum vom (\d.*20\d{2}) bis (\d.*20\d{2})', content)
     start_date = None
     if res is not None:
-        start_date = parse_date(res[1]).date()
-        end_date = parse_date(res[2]).date()
+        start_date = parse_bs_date(res[1]).date()
+        end_date = parse_bs_date(res[2]).date()
     assert start_date
     assert end_date
 
