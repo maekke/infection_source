@@ -2,6 +2,7 @@
 
 cantons=(
 	ag
+	bs
 	zg
 	zh
 )
