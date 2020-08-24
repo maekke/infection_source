@@ -1,9 +1,9 @@
 #!/usr/bin/env python
 
 import re
+import sys
 import arrow
 from bs4 import BeautifulSoup
-import sys
 
 import scrape_common as sc
 
@@ -21,6 +21,7 @@ def match(regex, text):
 
 
 def parse_number(number):
+    # pylint: disable=R0911
     if number in ['ein', 'eine']:
         return 1
     if number == 'zwei':
@@ -44,8 +45,8 @@ def parse_number(number):
 
 def parse_source(source):
     forbidden_words = ['auf', 'an', 'in', 'der', 'w.hrend']
-    for fw in forbidden_words:
-        source = re.sub(r'(' + fw + ')', '', source)
+    for forbidden_word in forbidden_words:
+        source = re.sub(r'(' + forbidden_word + ')', '', source)
     source = source.strip()
     return source
 
@@ -55,7 +56,7 @@ def parse_infection_sources(content):
     pos = content.find(find_str)
     if pos == -1:
         print('error could not detect infection sources', file=sys.stderr)
-        return
+        return None
     pos += len(find_str)
     end_pos = content.find('. ', pos)
     if end_pos == -1:
@@ -67,7 +68,7 @@ def parse_infection_sources(content):
     last = sources[-1].split(' und ')
     if len(last) != 2:
         print('error last source entry cannot be parsed properly', file=sys.stderr)
-        return
+        return None
     sources[-1] = last[0]
     sources.append(last[1])
 
