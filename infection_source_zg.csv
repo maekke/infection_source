@@ -1,25 +1,25 @@
 date,time,date_from,date_to,canton,source,count,url
-2020-07-24,08:00:00,,,ZG,Ausland und Reise,48,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/daten/themen/result-themen-14-03-05.csv
-2020-07-24,08:00:00,,,ZG,Beruf,27,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/daten/themen/result-themen-14-03-05.csv
-2020-07-24,08:00:00,,,ZG,Familiäres Umfeld,50,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/daten/themen/result-themen-14-03-05.csv
-2020-07-24,08:00:00,,,ZG,Freizeit,35,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/daten/themen/result-themen-14-03-05.csv
-2020-07-24,08:00:00,,,ZG,Gesundheitseinrichtung (Personal mit Patientenkontakt),9,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/daten/themen/result-themen-14-03-05.csv
-2020-07-24,08:00:00,,,ZG,Institution (Pflegeheime, Asylzentren, Strafanstalt),25,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/daten/themen/result-themen-14-03-05.csv
-2020-07-24,08:00:00,,,ZG,Schule,1,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/daten/themen/result-themen-14-03-05.csv
-2020-07-24,08:00:00,,,ZG,Unbekannt,76,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/daten/themen/result-themen-14-03-05.csv
-2020-08-14,08:00:00,,,ZG,Ausland und Reise,59,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/daten/themen/result-themen-14-03-05.csv
-2020-08-14,08:00:00,,,ZG,Beruf,28,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/daten/themen/result-themen-14-03-05.csv
-2020-08-14,08:00:00,,,ZG,Familiäres Umfeld,63,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/daten/themen/result-themen-14-03-05.csv
-2020-08-14,08:00:00,,,ZG,Freizeit,43,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/daten/themen/result-themen-14-03-05.csv
-2020-08-14,08:00:00,,,ZG,Gesundheitseinrichtung (Personal mit Patientenkontakt),10,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/daten/themen/result-themen-14-03-05.csv
-2020-08-14,08:00:00,,,ZG,Institution (Pflegeheime, Asylzentren, Strafanstalt),25,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/daten/themen/result-themen-14-03-05.csv
-2020-08-14,08:00:00,,,ZG,Schule,1,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/daten/themen/result-themen-14-03-05.csv
-2020-08-14,08:00:00,,,ZG,Unbekannt,83,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/daten/themen/result-themen-14-03-05.csv
-2020-08-19,08:00:00,,,ZG,Ausland und Reise,63,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/daten/themen/result-themen-14-03-05.csv
-2020-08-19,08:00:00,,,ZG,Beruf,29,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/daten/themen/result-themen-14-03-05.csv
-2020-08-19,08:00:00,,,ZG,Familiäres Umfeld,63,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/daten/themen/result-themen-14-03-05.csv
-2020-08-19,08:00:00,,,ZG,Freizeit,44,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/daten/themen/result-themen-14-03-05.csv
-2020-08-19,08:00:00,,,ZG,Gesundheitseinrichtung (Personal mit Patientenkontakt),10,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/daten/themen/result-themen-14-03-05.csv
-2020-08-19,08:00:00,,,ZG,Institution (Pflegeheime, Asylzentren, Strafanstalt),25,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/daten/themen/result-themen-14-03-05.csv
-2020-08-19,08:00:00,,,ZG,Schule,1,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/daten/themen/result-themen-14-03-05.csv
-2020-08-19,08:00:00,,,ZG,Unbekannt,84,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/daten/themen/result-themen-14-03-05.csv
+2020-07-24,08:00:00,,,ZG,"Ausland und Reise",48,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/daten/themen/result-themen-14-03-05.csv
+2020-07-24,08:00:00,,,ZG,"Beruf",27,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/daten/themen/result-themen-14-03-05.csv
+2020-07-24,08:00:00,,,ZG,"Familiäres Umfeld",50,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/daten/themen/result-themen-14-03-05.csv
+2020-07-24,08:00:00,,,ZG,"Freizeit",35,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/daten/themen/result-themen-14-03-05.csv
+2020-07-24,08:00:00,,,ZG,"Gesundheitseinrichtung (Personal mit Patientenkontakt)",9,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/daten/themen/result-themen-14-03-05.csv
+2020-07-24,08:00:00,,,ZG,"Institution (Pflegeheime, Asylzentren, Strafanstalt)",25,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/daten/themen/result-themen-14-03-05.csv
+2020-07-24,08:00:00,,,ZG,"Schule",1,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/daten/themen/result-themen-14-03-05.csv
+2020-07-24,08:00:00,,,ZG,"Unbekannt",76,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/daten/themen/result-themen-14-03-05.csv
+2020-08-14,08:00:00,,,ZG,"Ausland und Reise",59,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/daten/themen/result-themen-14-03-05.csv
+2020-08-14,08:00:00,,,ZG,"Beruf",28,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/daten/themen/result-themen-14-03-05.csv
+2020-08-14,08:00:00,,,ZG,"Familiäres Umfeld",63,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/daten/themen/result-themen-14-03-05.csv
+2020-08-14,08:00:00,,,ZG,"Freizeit",43,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/daten/themen/result-themen-14-03-05.csv
+2020-08-14,08:00:00,,,ZG,"Gesundheitseinrichtung (Personal mit Patientenkontakt)",10,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/daten/themen/result-themen-14-03-05.csv
+2020-08-14,08:00:00,,,ZG,"Institution (Pflegeheime, Asylzentren, Strafanstalt)",25,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/daten/themen/result-themen-14-03-05.csv
+2020-08-14,08:00:00,,,ZG,"Schule",1,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/daten/themen/result-themen-14-03-05.csv
+2020-08-14,08:00:00,,,ZG,"Unbekannt",83,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/daten/themen/result-themen-14-03-05.csv
+2020-08-19,08:00:00,,,ZG,"Ausland und Reise",63,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/daten/themen/result-themen-14-03-05.csv
+2020-08-19,08:00:00,,,ZG,"Beruf",29,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/daten/themen/result-themen-14-03-05.csv
+2020-08-19,08:00:00,,,ZG,"Familiäres Umfeld",63,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/daten/themen/result-themen-14-03-05.csv
+2020-08-19,08:00:00,,,ZG,"Freizeit",44,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/daten/themen/result-themen-14-03-05.csv
+2020-08-19,08:00:00,,,ZG,"Gesundheitseinrichtung (Personal mit Patientenkontakt)",10,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/daten/themen/result-themen-14-03-05.csv
+2020-08-19,08:00:00,,,ZG,"Institution (Pflegeheime, Asylzentren, Strafanstalt)",25,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/daten/themen/result-themen-14-03-05.csv
+2020-08-19,08:00:00,,,ZG,"Schule",1,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/daten/themen/result-themen-14-03-05.csv
+2020-08-19,08:00:00,,,ZG,"Unbekannt",84,https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/daten/themen/result-themen-14-03-05.csv
