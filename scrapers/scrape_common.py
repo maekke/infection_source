@@ -37,7 +37,7 @@ class InfectionSourceData:
         res.append(self.date_from or '')
         res.append(self.date_to or '')
         res.append(self.canton)
-        res.append(self.source or '')
+        res.append('"' + (self.source or '') + '"')
         res.append(self.count or '')
         res.append(self.url)
         return InfectionSourceData.SEPARATOR.join(res)
