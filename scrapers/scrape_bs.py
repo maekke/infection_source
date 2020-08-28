@@ -107,7 +107,7 @@ def parse_weekly_bulletin(url):
     for infection_source in infection_sources:
         isd = sc.InfectionSourceData('BS', url)
         isd.date_from = start_date.isoformat()
-        isd.date_to = start_date.isoformat()
+        isd.date_to = end_date.isoformat()
         isd.source = infection_source[1]
         isd.count = str(infection_source[0])
         print(isd)
