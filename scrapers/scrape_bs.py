@@ -12,14 +12,6 @@ def parse_bs_date(date_str):
     return arrow.get(date_str, 'D. MMMM YYYY', locale='de_CH').datetime
 
 
-def match(regex, text):
-    res = re.match(regex, text)
-    if res is not None:
-        return res[1]
-    # print('No result for match found', file=sys.stderr)
-    return None
-
-
 def parse_number(number):
     # pylint: disable=R0911
     if number in ['ein', 'eine']:
@@ -30,7 +22,7 @@ def parse_number(number):
         return 3
     if number == 'vier':
         return 4
-    if match(r'(f.nf)', number):
+    if sc.match(r'(f.nf)', number):
         return 5
     if number == 'sechs':
         return 6
@@ -74,7 +66,7 @@ def parse_infection_sources(content):
 
     result = []
     for source in sources:
-        count = parse_number(match(r'(\d+|[a-z]+)\s', source))
+        count = parse_number(sc.match(r'(\d+|[a-z]+)\s', source))
         res = re.match(r'.*(Prozent\))( der \d+ Neuinfektionen steckten sich)? (.*)', source)
         source = None
         if res is not None:
@@ -97,8 +89,8 @@ def parse_weekly_bulletin(url):
     assert start_date
     assert end_date
 
-    total_infections = int(match(r'.* wurden (\d+) Neuinfektionen', content))
-    known_infections = int(match(r'.* Dabei konnten.* \(oder (\d+) F.lle\)', content))
+    total_infections = int(sc.match(r'.* wurden (\d+) Neuinfektionen', content))
+    known_infections = int(sc.match(r'.* Dabei konnten.* \(oder (\d+) F.lle\)', content))
     unknown_infections = total_infections - known_infections
 
     infection_sources = parse_infection_sources(content)

@@ -2,6 +2,7 @@
 
 import datetime
 import requests
+import re
 
 
 class InfectionSourceData:
@@ -68,3 +69,10 @@ def download(url, encoding='utf-8'):
     if encoding:
         req.encoding = encoding
     return req.text
+
+
+def match(regex, text):
+    res = re.match(regex, text)
+    if res is not None:
+        return res[1]
+    return None
