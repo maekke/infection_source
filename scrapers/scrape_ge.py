@@ -2,10 +2,10 @@
 
 import re
 import datetime
-import arrow
 import tempfile
-import requests
 import subprocess
+import requests
+import arrow
 
 import scrape_common as sc
 
@@ -69,6 +69,7 @@ def get_categories_from_diagram(pdf):
     except ValueError:
         pass
 
+    # pylint: disable=C0200
     for i in range(len(categories)):
         value = None
         if i < len(values):
@@ -111,6 +112,3 @@ def scrape_ge():
 
 if __name__ == '__main__':
     scrape_ge()
-    # TODO
-    # https://www.ge.ch/document/19696/annexe/1
-    # https://www.ge.ch/document/19696/annexe/0

@@ -1,8 +1,8 @@
 #!/usr/bin/env python
 
 import datetime
-import requests
 import re
+import requests
 
 
 class InfectionSourceData:
