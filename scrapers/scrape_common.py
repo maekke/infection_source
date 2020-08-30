@@ -89,8 +89,15 @@ def download_pdf(url):
     return tmp.name
 
 
-def pdf_to_text(path):
+def pdf_to_text(path, layout=False, page=None):
     pdf_command = ['pdftotext', path, '-']
+    if layout:
+        pdf_command.append('-layout')
+    if page:
+        pdf_command.append('-f')
+        pdf_command.append(str(page))
+        pdf_command.append('-l')
+        pdf_command.append(str(page))
     with subprocess.Popen(pdf_command, stdout=subprocess.PIPE) as text:
         out = text.stdout.read()
         text.wait()
