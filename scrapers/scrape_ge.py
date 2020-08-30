@@ -4,27 +4,9 @@ import re
 import datetime
 import tempfile
 import subprocess
-import requests
 import arrow
 
 import scrape_common as sc
-
-
-def download_pdf(url):
-    req = requests.get(url)
-    req.raise_for_status()
-    tmp = tempfile.NamedTemporaryFile(mode='wb', delete=False)
-    tmp.write(req.content)
-    tmp.close()
-    return tmp.name
-
-
-def pdf_to_text(path):
-    pdf_command = ['pdftotext', path, '-']
-    with subprocess.Popen(pdf_command, stdout=subprocess.PIPE) as text:
-        out = text.stdout.read()
-        text.wait()
-        return out.decode('utf-8')
 
 
 def parse_diagram(pdf):
@@ -105,8 +87,8 @@ def parse_data(url, pdf, content):
 
 def scrape_ge():
     url = 'https://www.ge.ch/document/19696/telecharger'
-    pdf = download_pdf(url)
-    content = pdf_to_text(pdf)
+    pdf = sc.download_pdf(url)
+    content = sc.pdf_to_text(pdf)
     parse_data(url, pdf, content)
 
 

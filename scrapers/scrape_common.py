@@ -2,6 +2,8 @@
 
 import datetime
 import re
+import subprocess
+import tempfile
 import requests
 
 
@@ -76,3 +78,20 @@ def match(regex, text):
     if res is not None:
         return res[1]
     return None
+
+
+def download_pdf(url):
+    req = requests.get(url)
+    req.raise_for_status()
+    tmp = tempfile.NamedTemporaryFile(mode='wb', delete=False)
+    tmp.write(req.content)
+    tmp.close()
+    return tmp.name
+
+
+def pdf_to_text(path):
+    pdf_command = ['pdftotext', path, '-']
+    with subprocess.Popen(pdf_command, stdout=subprocess.PIPE) as text:
+        out = text.stdout.read()
+        text.wait()
+        return out.decode('utf-8')
