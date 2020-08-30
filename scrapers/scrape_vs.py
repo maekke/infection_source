@@ -23,7 +23,7 @@ def parse_vs_dates(pdf):
 
 
 def strip_source(source):
-    forbidden_words = ['sind', 'Personen', 'wurden', 'an ihrem', 'infiziert', '\.']
+    forbidden_words = ['sind', 'Personen', 'wurden', 'an ihrem', 'infiziert', '\.', 'die']
     for forbidden_word in forbidden_words:
         source = re.sub(r'(' + forbidden_word + ')', '', source)
     source = source.strip()
