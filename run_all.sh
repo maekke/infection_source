@@ -8,6 +8,13 @@ cantons=(
 	zh
 )
 
+if [[ ${1} == "--manual" ]] ; then
+	cantons=(
+		ge
+		sz
+	)
+fi
+
 for canton in ${cantons[*]} ; do
 	echo "running canton: ${canton}"
 	out_file="infection_source_${canton}.csv"
