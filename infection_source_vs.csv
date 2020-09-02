@@ -1,5 +1,4 @@
 date,time,date_from,date_to,canton,source,count,url
-
 ,,2020-08-10,2020-08-16,VS,"aus dem Ausland importiert",12,https://www.vs.ch/documents/6756452/7008787/2020 08 19 - Synthese COVID-19 VS Woche33
 ,,2020-08-10,2020-08-16,VS,"familiäre Fälle",15,https://www.vs.ch/documents/6756452/7008787/2020 08 19 - Synthese COVID-19 VS Woche33
 ,,2020-08-10,2020-08-16,VS,"im Bezirk Martigny beim Ausbruch der Woche 32",4,https://www.vs.ch/documents/6756452/7008787/2020 08 19 - Synthese COVID-19 VS Woche33
@@ -10,10 +9,3 @@ date,time,date_from,date_to,canton,source,count,url
 ,,2020-08-17,2020-08-23,VS,"aus einem Betrieb ausserhalb des Kantons eingeführt",3,https://www.vs.ch/documents/6756452/7008787/2020 08 26 - Synthese COVID19 VS Woche34
 ,,2020-08-17,2020-08-23,VS,"familiäre Fälle",10,https://www.vs.ch/documents/6756452/7008787/2020 08 26 - Synthese COVID19 VS Woche34
 ,,2020-08-17,2020-08-23,VS,"isolierte Fälle",24,https://www.vs.ch/documents/6756452/7008787/2020 08 26 - Synthese COVID19 VS Woche34
-,,2020-08-24,2020-08-30,VS,"Fälle haben sich in der Armee angesteckt
-,,2020-08-24,2020-08-30,VS,"Fälle",21,https://www.vs.ch/documents/6756452/7008787/2020 09 02 - Synthese COVID19 VS Woche35
-,,2020-08-24,2020-08-30,VS,"Übertragung am Arbeitsplatz",3,https://www.vs.ch/documents/6756452/7008787/2020 09 02 - Synthese COVID19 VS Woche35
-,,2020-08-24,2020-08-30,VS,"Übertragung bei einem
-378",2,https://www.vs.ch/documents/6756452/7008787/2020 09 02 - Synthese COVID19 VS Woche35
-420
-privaten Fest ausserhalb des Kantons",4,https://www.vs.ch/documents/6756452/7008787/2020 09 02 - Synthese COVID19 VS Woche35
