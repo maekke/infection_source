@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 
 import re
-import datetime
 import arrow
 from bs4 import BeautifulSoup
 
