@@ -14,10 +14,10 @@ def parse_vs_date(date_str):
 
 def parse_vs_dates(pdf):
     content = sc.pdf_to_text(pdf, page=1)
-    res = re.match(r'.* (\d+)\. bis (\d+\.\d+\.20\d{2})', content, re.DOTALL)
+    res = re.match(r'.* (\d+\.\d+) bis (\d+\.\d+\.20\d{2})', content, re.DOTALL)
     if res is not None:
         end_date = parse_vs_date(res[2])
-        start_date = datetime.date(end_date.year, end_date.month, int(res[1]))
+        start_date = parse_vs_date(res[1] + '.' + str(end_date.year))
         return start_date, end_date
     return None, None
 
