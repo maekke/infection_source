@@ -36,7 +36,7 @@ def parse_number(number):
 
 
 def parse_source(source):
-    forbidden_words = ['auf', 'an', 'in', 'der', 'w.hrend']
+    forbidden_words = ['einem', 'auf', 'an', 'in', 'der', 'w.hrend']
     for forbidden_word in forbidden_words:
         source = re.sub(r'(' + forbidden_word + ')', '', source)
     source = source.strip()
