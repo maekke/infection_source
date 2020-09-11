@@ -78,10 +78,10 @@ def parse_infection_sources(content):
 def parse_weekly_bulletin(url):
     content = sc.download(url)
     content = BeautifulSoup(content, 'html.parser')
-    content = content.find(string=re.compile('Im Zeitraum vom ')).find_parent('p').text
+    content = content.find(string=re.compile('[Ii]m Zeitraum vom ')).find_parent('p').text
     # print(content)
 
-    res = re.match(r'Im Zeitraum vom (\d.*20\d{2}) bis (\d.*20\d{2})', content)
+    res = re.match(r'.*[Ii]m Zeitraum vom (\d.*20\d{2}) bis (\d.*20\d{2})', content, re.DOTALL)
     start_date = None
     if res is not None:
         start_date = parse_bs_date(res[1]).date()
@@ -89,8 +89,8 @@ def parse_weekly_bulletin(url):
     assert start_date
     assert end_date
 
-    total_infections = int(sc.match(r'.* wurden (\d+) Neuinfektionen', content))
-    known_infections = int(sc.match(r'.* Dabei konnten.* \(oder (\d+) F.lle\)', content))
+    total_infections = int(sc.match(r'.* wurden (\d+) Neuinfektionen', content, mode=re.DOTALL))
+    known_infections = int(sc.match(r'.* Dabei konnten.* \(oder (\d+) F.lle\)', content, mode=re.DOTALL))
     unknown_infections = total_infections - known_infections
 
     infection_sources = parse_infection_sources(content)

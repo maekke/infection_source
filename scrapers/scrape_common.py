@@ -73,8 +73,11 @@ def download(url, encoding='utf-8'):
     return req.text
 
 
-def match(regex, text):
-    res = re.match(regex, text)
+def match(regex, text, mode=None):
+    if mode is None:
+        res = re.match(regex, text)
+    else:
+        res = re.match(regex, text, mode)
     if res is not None:
         return res[1]
     return None
