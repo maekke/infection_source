@@ -26,9 +26,8 @@ def get_categories_from_diagram(pdf):
     categories = []
     values = []
     for item in content.split('\n'):
-        res = re.match(r'^.(.)? (.+)$', item)
-        if res is not None:
-            categories.append(res[2])
+        if len(item) > 2:
+            categories.append(item)
         res = re.match(r'^(\d+)$', item)
         if res is not None:
             values.append(int(res[1]))
