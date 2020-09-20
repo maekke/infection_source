@@ -64,10 +64,13 @@ def parse_ge_date(date_str):
 
 
 def parse_dates(content):
-    res = re.match(r'.* (\d+ .*) au (\d+ .* 20\d{2})', content, re.DOTALL)
+    res = re.search(r'\n(\d+|\d+ .*) au (\d+ .* 20\d{2})', content)
     if res is not None:
         end_date = parse_ge_date(res[2])
-        start_date = parse_ge_date(res[1] + ' ' + str(end_date.year))
+        if len(res[1]) <= 2:
+            start_date = datetime.date(end_date.year, end_date.month, int(res[1]))
+        else:
+            start_date = parse_ge_date(res[1] + ' ' + str(end_date.year))
         return start_date, end_date
     return None, None
 
