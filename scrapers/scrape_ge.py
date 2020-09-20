@@ -50,12 +50,9 @@ def get_categories_from_diagram(pdf):
     except ValueError:
         pass
 
-    # pylint: disable=C0200
-    for i in range(len(categories)):
-        value = None
-        if i < len(values):
-            value = values[i]
-        result[categories[i]] = value
+    for category, value in zip(categories, values):
+        value = value
+        result[category] = value
     return result
 
 
