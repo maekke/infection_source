@@ -51,7 +51,6 @@ def get_categories_from_diagram(pdf):
         pass
 
     for category, value in zip(categories, values):
-        value = value
         result[category] = value
     return result
 
