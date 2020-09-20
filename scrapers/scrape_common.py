@@ -65,12 +65,20 @@ class InfectionSourceData:
         return InfectionSourceData.SEPARATOR.join(res)
 
 
-def download(url, encoding='utf-8'):
+def _download(url, encoding='utf-8'):
     req = requests.get(url)
     req.raise_for_status()
     if encoding:
         req.encoding = encoding
-    return req.text
+    return req
+
+
+def download(url, encoding='utf-8'):
+    return _download(url, encoding).text
+
+
+def download_json(url, encoding='utf-8'):
+    return _download(url, encoding).json()
 
 
 def match(regex, text, mode=None):
