@@ -45,10 +45,10 @@ def parse_sh_data(url, pdf):
     count = get_count(content)
 
     if len(categories) == len(count):
-        for i in range(len(categories)):
+        for cat, cnt in zip(categories, count):
             isd = sc.InfectionSourceData('SH', url)
-            isd.source = categories[i]
-            isd.count = count[i]
+            isd.source = cat
+            isd.count = cnt
             isd.date_from = start_date.isoformat()
             isd.date_to = end_date.isoformat()
             print(isd)
