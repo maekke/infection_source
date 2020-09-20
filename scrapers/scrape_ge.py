@@ -10,10 +10,10 @@ import scrape_common as sc
 
 def parse_diagram(pdf):
     with tempfile.TemporaryDirectory() as tmpdirname:
-        pdf_command = ['pdfimages', '-j', '-f', '6', '-l', '6', pdf, tmpdirname + '/']
+        pdf_command = ['pdfimages', '-png', '-f', '6', '-l', '6', pdf, tmpdirname + '/']
         with subprocess.Popen(pdf_command) as pdf_proc:
             pdf_proc.wait()
-            tesseract_command = ['tesseract', tmpdirname + '/-002.jpg', 'stdout']
+            tesseract_command = ['tesseract', tmpdirname + '/-002.png', 'stdout']
             with subprocess.Popen(tesseract_command, stdout=subprocess.PIPE) as text:
                 out = text.stdout.read()
                 text.wait()
