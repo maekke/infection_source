@@ -1,49 +1,59 @@
 date,time,date_from,date_to,canton,source,count,url
 ,,2020-08-03,2020-08-09,GE,"Au travail",7,https://www.ge.ch/document/19696/telecharger
 ,,2020-08-03,2020-08-09,GE,"Autre",51,https://www.ge.ch/document/19696/annexe/1
-,,2020-08-03,2020-08-09,GE,"Dans la famille ou sous le mÃªme toit",34,https://www.ge.ch/document/19696/annexe/1
+,,2020-08-03,2020-08-09,GE,"Dans la famille ou sous le même toit",34,https://www.ge.ch/document/19696/annexe/1
 ,,2020-08-03,2020-08-09,GE,"Dans un bar / restaurant",26,https://www.ge.ch/document/19696/annexe/1
-,,2020-08-03,2020-08-09,GE,"En discothÃ©que / club",6,https://www.ge.ch/document/19696/annexe/1
-,,2020-08-03,2020-08-09,GE,"En tant que personnel mÃ©dical ou soignant",4,https://www.ge.ch/document/19696/annexe/1
-,,2020-08-03,2020-08-09,GE,"Lors d'un rassemblement spontanÃ©",7,https://www.ge.ch/document/19696/annexe/1
-,,2020-08-03,2020-08-09,GE,"Lors d'une fÃ©te ou soirÃ©e privÃ©e",21,https://www.ge.ch/document/19696/annexe/1
+,,2020-08-03,2020-08-09,GE,"En discothéque / club",6,https://www.ge.ch/document/19696/annexe/1
+,,2020-08-03,2020-08-09,GE,"En tant que personnel médical ou soignant",4,https://www.ge.ch/document/19696/annexe/1
+,,2020-08-03,2020-08-09,GE,"Lors d'un rassemblement spontané",7,https://www.ge.ch/document/19696/annexe/1
+,,2020-08-03,2020-08-09,GE,"Lors d'une féte ou soirée privée",21,https://www.ge.ch/document/19696/annexe/1
 ,,2020-08-03,2020-08-09,GE,"Lors d'une manifestation",2,https://www.ge.ch/document/19696/annexe/1
 ,,2020-08-10,2020-08-16,GE,"Au travail",9,https://www.ge.ch/document/19696/annexe/0
 ,,2020-08-10,2020-08-16,GE,"Autre",60,https://www.ge.ch/document/19696/annexe/0
-,,2020-08-10,2020-08-16,GE,"Dans la famille ou sous le mÃªme toit",54,https://www.ge.ch/document/19696/annexe/0
+,,2020-08-10,2020-08-16,GE,"Dans la famille ou sous le même toit",54,https://www.ge.ch/document/19696/annexe/0
 ,,2020-08-10,2020-08-16,GE,"Dans un bar / restaurant",22,https://www.ge.ch/document/19696/annexe/0
-,,2020-08-10,2020-08-16,GE,"En discothÃ©que / club",3,https://www.ge.ch/document/19696/annexe/0
-,,2020-08-10,2020-08-16,GE,"En tant que personnel mÃ©dical ou soignant",0,https://www.ge.ch/document/19696/annexe/0
-,,2020-08-10,2020-08-16,GE,"Lors d'un rassemblement spontanÃ©",7,https://www.ge.ch/document/19696/annexe/0
-,,2020-08-10,2020-08-16,GE,"Lors d'une fÃªte ou soirÃ©e privÃ©e",17,https://www.ge.ch/document/19696/telecharger
+,,2020-08-10,2020-08-16,GE,"En discothéque / club",3,https://www.ge.ch/document/19696/annexe/0
+,,2020-08-10,2020-08-16,GE,"En tant que personnel médical ou soignant",0,https://www.ge.ch/document/19696/annexe/0
+,,2020-08-10,2020-08-16,GE,"Lors d'un rassemblement spontané",7,https://www.ge.ch/document/19696/annexe/0
+,,2020-08-10,2020-08-16,GE,"Lors d'une fête ou soirée privée",17,https://www.ge.ch/document/19696/telecharger
 ,,2020-08-10,2020-08-16,GE,"Lors d'une manifestation",0,https://www.ge.ch/document/19696/annexe/0
 ,,2020-08-17,2020-08-23,GE,"Au travail",22,https://www.ge.ch/document/19696/telecharger
 ,,2020-08-17,2020-08-23,GE,"Autre",78,https://www.ge.ch/document/19696/telecharger
-,,2020-08-17,2020-08-23,GE,"Dans la famille ou sous le mÃªme toit",57,https://www.ge.ch/document/19696/telecharger
+,,2020-08-17,2020-08-23,GE,"Dans la famille ou sous le même toit",57,https://www.ge.ch/document/19696/telecharger
 ,,2020-08-17,2020-08-23,GE,"Dans un bar / restaurant",24,https://www.ge.ch/document/19696/telecharger
-,,2020-08-17,2020-08-23,GE,"En discothÃ©que / club",1,https://www.ge.ch/document/19696/telecharger
-,,2020-08-17,2020-08-23,GE,"En tant que personnel mÃ©dical ou soignant",3,https://www.ge.ch/document/19696/telecharger
-,,2020-08-17,2020-08-23,GE,"Lors d'un rassemblement spontanÃ©",7,https://www.ge.ch/document/19696/telecharger
-,,2020-08-17,2020-08-23,GE,"Lors d'une fÃªte ou soirÃ©e privÃ©e",19,https://www.ge.ch/document/19696/telecharger
+,,2020-08-17,2020-08-23,GE,"En discothéque / club",1,https://www.ge.ch/document/19696/telecharger
+,,2020-08-17,2020-08-23,GE,"En tant que personnel médical ou soignant",3,https://www.ge.ch/document/19696/telecharger
+,,2020-08-17,2020-08-23,GE,"Lors d'un rassemblement spontané",7,https://www.ge.ch/document/19696/telecharger
+,,2020-08-17,2020-08-23,GE,"Lors d'une fête ou soirée privée",19,https://www.ge.ch/document/19696/telecharger
 ,,2020-08-17,2020-08-23,GE,"Lors d'une manifestation",4,https://www.ge.ch/document/19696/telecharger
 ,,2020-08-17,2020-08-23,GE,"Ne sait pas",42,https://www.ge.ch/document/19696/telecharger
 ,,2020-08-24,2020-08-30,GE,"Au travail",37,https://www.ge.ch/document/19696/telecharger
 ,,2020-08-24,2020-08-30,GE,"Autre",85,https://www.ge.ch/document/19696/telecharger
-,,2020-08-24,2020-08-30,GE,"Dans la famille ou sous le mÃ©me toit",41,https://www.ge.ch/document/19696/telecharger
+,,2020-08-24,2020-08-30,GE,"Dans la famille ou sous le méme toit",41,https://www.ge.ch/document/19696/telecharger
 ,,2020-08-24,2020-08-30,GE,"Dans un bar / restaurant",26,https://www.ge.ch/document/19696/telecharger
 ,,2020-08-24,2020-08-30,GE,"En discotheque / club",1,https://www.ge.ch/document/19696/telecharger
-,,2020-08-24,2020-08-30,GE,"En tant que personnel mÃ©dical ou soignant",8,https://www.ge.ch/document/19696/telecharger
-,,2020-08-24,2020-08-30,GE,"Lors d'un rassemblement spontanÃ©",8,https://www.ge.ch/document/19696/telecharger
-,,2020-08-24,2020-08-30,GE,"Lors d'une fÃªte ou soirÃ©e privÃ©e",30,https://www.ge.ch/document/19696/telecharger
+,,2020-08-24,2020-08-30,GE,"En tant que personnel médical ou soignant",8,https://www.ge.ch/document/19696/telecharger
+,,2020-08-24,2020-08-30,GE,"Lors d'un rassemblement spontané",8,https://www.ge.ch/document/19696/telecharger
+,,2020-08-24,2020-08-30,GE,"Lors d'une fête ou soirée privée",30,https://www.ge.ch/document/19696/telecharger
 ,,2020-08-24,2020-08-30,GE,"Lors d'une manifestation",0,https://www.ge.ch/document/19696/telecharger
 ,,2020-08-24,2020-08-30,GE,"Ne sait pas",51,https://www.ge.ch/document/19696/telecharger
 ,,2020-08-31,2020-09-06,GE,"Au travail",48,https://www.ge.ch/document/19696/telecharger
 ,,2020-08-31,2020-09-06,GE,"Autre",77,https://www.ge.ch/document/19696/telecharger
-,,2020-08-31,2020-09-06,GE,"Dans la famille ou sous le mÃªme toit",77,https://www.ge.ch/document/19696/telecharger
+,,2020-08-31,2020-09-06,GE,"Dans la famille ou sous le même toit",77,https://www.ge.ch/document/19696/telecharger
 ,,2020-08-31,2020-09-06,GE,"Dans un bar / restaurant",22,https://www.ge.ch/document/19696/telecharger
-,,2020-08-31,2020-09-06,GE,"En discothÃ©que / club",2,https://www.ge.ch/document/19696/telecharger
-,,2020-08-31,2020-09-06,GE,"En tant que personnel mÃ©dical ou soi",7,https://www.ge.ch/document/19696/telecharger
-,,2020-08-31,2020-09-06,GE,"Lors d'un rassemblement spontanÃ©",12,https://www.ge.ch/document/19696/telecharger
-,,2020-08-31,2020-09-06,GE,"Lors d'une fÃ©te ou soirÃ©e privÃ©e",26,https://www.ge.ch/document/19696/telecharger
+,,2020-08-31,2020-09-06,GE,"En discothéque / club",2,https://www.ge.ch/document/19696/telecharger
+,,2020-08-31,2020-09-06,GE,"En tant que personnel médical ou soi",7,https://www.ge.ch/document/19696/telecharger
+,,2020-08-31,2020-09-06,GE,"Lors d'un rassemblement spontané",12,https://www.ge.ch/document/19696/telecharger
+,,2020-08-31,2020-09-06,GE,"Lors d'une féte ou soirée privée",26,https://www.ge.ch/document/19696/telecharger
 ,,2020-08-31,2020-09-06,GE,"Lors d'une manifestation",2,https://www.ge.ch/document/19696/telecharger
 ,,2020-08-31,2020-09-06,GE,"Ne sait pas",57,https://www.ge.ch/document/19696/telecharger
+,,2020-09-07,2020-09-13,GE,"Au travail",53,https://www.ge.ch/document/19696/telecharger
+,,2020-09-07,2020-09-13,GE,"En discothéque / club",2,https://www.ge.ch/document/19696/telecharger
+,,2020-09-07,2020-09-13,GE,"Lors d'un rassemblement spontané",21,https://www.ge.ch/document/19696/telecharger
+,,2020-09-07,2020-09-13,GE,"Lors d'une féte ou soirée privée",23,https://www.ge.ch/document/19696/telecharger
+,,2020-09-07,2020-09-13,GE,"Dans la famille ou sous le méme tot",70,https://www.ge.ch/document/19696/telecharger
+,,2020-09-07,2020-09-13,GE,"En tant que personnel médical ou soignant",1,https://www.ge.ch/document/19696/telecharger
+,,2020-09-07,2020-09-13,GE,"Dans un bar / restaurant",12,https://www.ge.ch/document/19696/telecharger
+,,2020-09-07,2020-09-13,GE,"Lors d'une manifestation",2,https://www.ge.ch/document/19696/telecharger
+,,2020-09-07,2020-09-13,GE,"Ne sait pas",79,https://www.ge.ch/document/19696/telecharger
+,,2020-09-07,2020-09-13,GE,"Autre",38,https://www.ge.ch/document/19696/annexe/1
