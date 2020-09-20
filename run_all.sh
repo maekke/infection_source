@@ -3,6 +3,7 @@
 cantons=(
 	ag
 	bs
+	sh
 	vs
 	zg
 	zh
