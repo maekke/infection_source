@@ -35,11 +35,11 @@ def strip_source(source):
 def parse_vs_data(url, pdf):
     start_date, end_date = parse_vs_dates(pdf)
 
-    content = sc.pdf_to_text(pdf, page=4)
+    content = sc.pdf_to_text(pdf, page=5)
     sources = {}
-    for res in re.finditer(r'\s+(\d+) \([\d\.]+%\) ([\w\s\.]+)(;|\.)\n', content):
+    for res in re.finditer(r'\n(\d+) \([\d\.]+%\) ([\w\s\.-]+)(;|\.)\n', content):
         sources[strip_source(res[2])] = int(res[1])
-    for res in re.finditer(r'(\d+) (neue|neuer)?\s?(F.lle|F.llen|Fall beim Ausbruch),? \(?([\w\s]+)\s?(und|\.|;|\(|\))', content):
+    for res in re.finditer(r'(\d+) (neue|neuer)?\s?(F.lle|F.llen|Fall beim Ausbruch|cas dans),? \(?([\w\s]+)\s?(und|\.|;|\(|\))', content):
         sources[strip_source(res[4])] = int(res[1])
 
     for source, count in sources.items():
