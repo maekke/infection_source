@@ -3,6 +3,7 @@
 import re
 import json
 import arrow
+from bs4 import BeautifulSoup
 
 import scrape_common as sc
 
@@ -56,7 +57,12 @@ def parse_sh_data(url, pdf):
 
 def get_weekly_bulletin_url():
     base_url = 'https://sh.ch'
-    url = base_url + '/CMS/content.jsp?contentid=6180531&language=DE&_=1600589165438'
+    url = base_url + '/CMS/content.jsp?contentid=3209198&language=DE&_=1601060488274'
+    data = sc.download_json(url)
+    data = data['data_post_content']
+    data = BeautifulSoup(data, 'html.parser').find(string=re.compile(r'Hier finden Sie den aktuellen Lagebericht des Covid-19 Teams Schaffhausen')).find_next('a')
+    data = data.get('contentid')
+    url = base_url + f'/CMS/content.jsp?contentid={data}&language=DE'
     data = sc.download_json(url)
     data = json.loads(data['data_filemeta'])
     return base_url + data['url']
