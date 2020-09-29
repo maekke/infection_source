@@ -27,8 +27,8 @@ def scrape_ag():
     trs = table.findChildren('tr')
     n_trs = len(trs)
     assert n_trs > 0
-    # skip header tr
-    for i in range(1, n_trs):
+    # skip header and total in tr
+    for i in range(1, n_trs - 1):
         row = trs[i]
         tds = row.findChildren('td')
         isd = sc.InfectionSourceData('AG', url)
