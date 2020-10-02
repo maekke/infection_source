@@ -14,7 +14,7 @@ def parse_diagram(pdf):
         pdf_command = ['pdfimages', '-png', '-f', '6', '-l', '6', pdf, tmpdirname + '/']
         with subprocess.Popen(pdf_command) as pdf_proc:
             pdf_proc.wait()
-            tesseract_command = ['tesseract', tmpdirname + '/-003.png', 'stdout']
+            tesseract_command = ['tesseract', tmpdirname + '/-002.png', 'stdout']
             with subprocess.Popen(tesseract_command, stdout=subprocess.PIPE) as text:
                 out = text.stdout.read()
                 text.wait()
