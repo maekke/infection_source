@@ -13,7 +13,7 @@ def parse_sh_date(date_str):
 
 
 def parse_sh_dates(content):
-    res = re.search(r'\n(\d+\.\d+\.) - (\d+\.\d+\.)', content)
+    res = re.search(r'\n(\d+\.\d+\.) . (\d+\.\d+\.)', content)
     if res is not None:
         year = '2020'
         end_date = parse_sh_date(res[2] + year)
