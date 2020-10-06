@@ -12,14 +12,14 @@ def scrape_ag():
     xls_datemode = xls.datemode
     sheet = xls.sheet_by_name('3. Ansteckungsorte')
     categories = {c: str(sheet.cell_value(1, c) or xlrd.formula.colname(c)) for c in range(1, sheet.ncols, 2)}
-    for r in range(56, sheet.nrows):
-        date = sheet.cell_value(r, 0)
+    for row in range(56, sheet.nrows):
+        date = sheet.cell_value(row, 0)
         if date == '':
             return
         date = xlrd.xldate_as_datetime(date, xls_datemode).date()
         for col, cat in categories.items():
-            # TODO total count?
-            count = sheet.cell_value(r, col + 1)
+            # or should we use total count?
+            count = sheet.cell_value(row, col + 1)
             if count != '':
                 count = int(count)
                 isd = sc.InfectionSourceData('AG', url)
