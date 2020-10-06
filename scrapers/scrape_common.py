@@ -81,6 +81,10 @@ def download_json(url, encoding='utf-8'):
     return _download(url, encoding).json()
 
 
+def download_content(url):
+    return _download(url, encoding=None).content
+
+
 def match(regex, text, mode=None):
     if mode is None:
         res = re.match(regex, text)
