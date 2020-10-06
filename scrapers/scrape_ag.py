@@ -19,7 +19,7 @@ def scrape_ag():
         date = xlrd.xldate_as_datetime(date, xls_datemode).date()
         for col, cat in categories.items():
             # or should we use total count?
-            count = sheet.cell_value(row, col + 1)
+            count = sheet.cell_value(row, col)
             if count != '':
                 count = int(count)
                 isd = sc.InfectionSourceData('AG', url)
