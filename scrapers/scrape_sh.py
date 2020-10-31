@@ -39,20 +39,25 @@ def get_count(content):
 
 
 def parse_sh_data(url, pdf):
-    content = sc.pdf_to_text(pdf, page=10)
+    found_data = False
+    for page in [11, 12, 13]:
+        content = sc.pdf_to_text(pdf, page=page)
+        if re.match(r'.*Lage Schaffhausen . Ansteckungsorte.*', content):
+            start_date, end_date = parse_sh_dates(content)
+            categories = get_categories(content)
+            count = get_count(content)
 
-    start_date, end_date = parse_sh_dates(content)
-    categories = get_categories(content)
-    count = get_count(content)
+            if len(categories) == len(count):
+                found_data = True
+                for cat, cnt in zip(categories, count):
+                    isd = sc.InfectionSourceData('SH', url)
+                    isd.source = cat
+                    isd.count = cnt
+                    isd.date_from = start_date.isoformat()
+                    isd.date_to = end_date.isoformat()
+                    print(isd)
 
-    if len(categories) == len(count):
-        for cat, cnt in zip(categories, count):
-            isd = sc.InfectionSourceData('SH', url)
-            isd.source = cat
-            isd.count = cnt
-            isd.date_from = start_date.isoformat()
-            isd.date_to = end_date.isoformat()
-            print(isd)
+    assert found_data, f'No infection source data found in {url}!'
 
 
 def get_weekly_bulletin_url():
