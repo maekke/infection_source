@@ -90,7 +90,7 @@ def parse_weekly_bulletin(url):
         try:
             start_date = parse_bs_date(res[2]).date()
         except arrow.parser.ParserMatchError:
-            start_date = parse_bs_short_date(f'{res[2]}{end_date.month}.{end_date.year}')
+            start_date = parse_bs_short_date(f'{res[2]}{end_date.month}.{end_date.year}').date()
     assert start_date
     assert end_date
 
