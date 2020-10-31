@@ -4,7 +4,6 @@ cantons=(
 	ag
 	bs
 	sh
-	vs
 	zg
 	zh
 )
@@ -13,6 +12,7 @@ if [[ ${1} == "--manual" ]] ; then
 	cantons=(
 		ge
 		sz
+		vs
 	)
 fi
 
