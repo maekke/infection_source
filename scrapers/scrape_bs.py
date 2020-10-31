@@ -89,7 +89,7 @@ def parse_weekly_bulletin(url):
         end_date = parse_bs_date(res[3]).date()
         try:
             start_date = parse_bs_date(res[2]).date()
-        except:
+        except Exception:
             start_date = parse_bs_short_date(f'{res[2]}{end_date.month}.{end_date.year}')
     assert start_date
     assert end_date
