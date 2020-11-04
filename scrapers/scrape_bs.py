@@ -83,14 +83,17 @@ def parse_weekly_bulletin(url):
     content = content.find(string=re.compile('([Ii]m )?Zeitraum vom ')).find_parent('p').text
     # print(content)
 
-    res = re.match(r'.*([Ii]m )?Zeitraum vom (\d.*20\d{2}|\d+\.) bis (\d.*20\d{2})', content, re.DOTALL)
+    res = re.match(r'.*([Ii]m )?Zeitraum vom (\d.*20\d{2}|\d.*|\d+\.) bis (\d.*20\d{2})', content, re.DOTALL)
     start_date = None
     if res is not None:
         end_date = parse_bs_date(res[3]).date()
         try:
             start_date = parse_bs_date(res[2]).date()
         except arrow.parser.ParserMatchError:
-            start_date = parse_bs_short_date(f'{res[2]}{end_date.month}.{end_date.year}').date()
+            try:
+                start_date = parse_bs_short_date(f'{res[2]}{end_date.month}.{end_date.year}').date()
+            except arrow.parser.ParserMatchError:
+                start_date = parse_bs_date(f'{res[2]} {end_date.year}').date()
     assert start_date
     assert end_date
 
