@@ -40,7 +40,7 @@ def get_count(content):
 
 def parse_sh_data(url, pdf):
     found_data = False
-    for page in [11, 12, 13, 14]:
+    for page in [11, 12, 13, 14, 15, 16]:
         content = sc.pdf_to_text(pdf, page=page)
         if re.match(r'.*Lage Schaffhausen . Ansteckungsorte.*', content):
             start_date, end_date = parse_sh_dates(content)
