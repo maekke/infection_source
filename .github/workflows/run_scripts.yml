@@ -18,7 +18,9 @@ jobs:
         python-version: 3.7
 
     - name: install poppler-utils
-      run: sudo apt-get install poppler-utils
+      run: |
+        sudo apt-get update
+        sudo apt-get install poppler-utils
 
     - name: install pip dependencies
       run: |
