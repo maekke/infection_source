@@ -13,7 +13,7 @@ def parse_sh_date(date_str):
 
 
 def parse_sh_dates(content):
-    res = re.search(r'\n(\d+\.\d+\.) . (\d+\.\d+\.)', content)
+    res = re.search(r'\n(\d+\.\d+\.)\s?.\s?(\d+\.\d+\.)', content)
     if res is not None:
         year = '2020'
         end_date = parse_sh_date(res[2] + year)
@@ -35,12 +35,19 @@ def get_count(content):
     end = content.find('\n\n', start)
     count_str = content[start:end]
     count = count_str.split('\n')
+    # workaround for mixup with Anzahl and Prozentual values
+    if count[1] == 'Prozentual':
+        tmp = count
+        count = []
+        # also drop the last Total value
+        for i in range(0, len(tmp) - 1, 2):
+            count.append(tmp[i])
     return count[1:]
 
 
 def parse_sh_data(url, pdf):
     found_data = False
-    for page in [11, 12, 13, 14, 15, 16]:
+    for page in [11, 12, 13, 14, 15, 16, 17, 18]:
         content = sc.pdf_to_text(pdf, page=page)
         if re.match(r'.*Lage Schaffhausen . Ansteckungsorte.*', content):
             start_date, end_date = parse_sh_dates(content)
