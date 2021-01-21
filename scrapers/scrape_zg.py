@@ -16,11 +16,11 @@ def scrape_zg():
     data = []
     date = None
 
-    url = 'https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/daten/themen/result-themen-14-03-05.csv'
+    url = 'https://www.zg.ch/behoerden/gesundheitsdirektion/statistikfachstelle/daten/themen/result-themen-14-03-11.csv'
     content = sc.download(url)
     reader = csv.DictReader(StringIO(content), delimiter=',')
     for row in reader:
-        source = row['Ansteckungsquelle']
+        source = row['Vermutete Ansteckungsquelle']
         if source != 'NA':
             isd = sc.InfectionSourceData('ZG', url)
             isd.source = source
