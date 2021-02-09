@@ -12,10 +12,17 @@ def parse_sh_date(date_str):
     return arrow.get(date_str, 'DD.MM.YYYY', locale='de').datetime.date()
 
 
-def parse_sh_dates(content):
+def parse_sh_year(content):
+    year = '2020'
+    res = re.search(r'\d+\.\s+\w+\s+(\d{4})', content)
+    if res:
+        year = res[1]
+    return year
+
+
+def parse_sh_dates(content, year):
     res = re.search(r'\n(\d+\.\d+\.)\s?.\s?(\d+\.\d+\.)', content)
     if res is not None:
-        year = '2020'
         end_date = parse_sh_date(res[2] + year)
         start_date = parse_sh_date(res[1] + year)
         return start_date, end_date
@@ -47,10 +54,12 @@ def get_count(content):
 
 def parse_sh_data(url, pdf):
     found_data = False
+    content = sc.pdf_to_text(pdf, page=1)
+    year = parse_sh_year(content)
     for page in [11, 12, 13, 14, 15, 16, 17, 18]:
         content = sc.pdf_to_text(pdf, page=page)
         if re.match(r'.*Lage Schaffhausen . Ansteckungsorte.*', content):
-            start_date, end_date = parse_sh_dates(content)
+            start_date, end_date = parse_sh_dates(content, year)
             categories = get_categories(content)
             count = get_count(content)
 
