@@ -1,28 +1,4 @@
 date,time,date_from,date_to,canton,source,count,url
-,,2020-01-04,2020-01-10,SH,"Arbeit",8,https://sh.ch/CMS/get/file/10ee820d-508f-4402-aebe-d23bd5e18d92
-,,2020-01-04,2020-01-10,SH,"Ausland",0,https://sh.ch/CMS/get/file/10ee820d-508f-4402-aebe-d23bd5e18d92
-,,2020-01-04,2020-01-10,SH,"Familie / Eigener Haushalt",65,https://sh.ch/CMS/get/file/10ee820d-508f-4402-aebe-d23bd5e18d92
-,,2020-01-04,2020-01-10,SH,"Private Veranstaltung",8,https://sh.ch/CMS/get/file/10ee820d-508f-4402-aebe-d23bd5e18d92
-,,2020-01-04,2020-01-10,SH,"Unbekannt",70,https://sh.ch/CMS/get/file/10ee820d-508f-4402-aebe-d23bd5e18d92
-,,2020-01-04,2020-01-10,SH,"Öffentliche Veranstaltung",0,https://sh.ch/CMS/get/file/10ee820d-508f-4402-aebe-d23bd5e18d92
-,,2020-01-11,2020-01-17,SH,"Arbeit",20,https://sh.ch/CMS/get/file/24bb6dc1-e502-4ffc-bafe-6e30011a4b3f
-,,2020-01-11,2020-01-17,SH,"Ausland",1,https://sh.ch/CMS/get/file/24bb6dc1-e502-4ffc-bafe-6e30011a4b3f
-,,2020-01-11,2020-01-17,SH,"Familie / Eigener Haushalt",70,https://sh.ch/CMS/get/file/24bb6dc1-e502-4ffc-bafe-6e30011a4b3f
-,,2020-01-11,2020-01-17,SH,"Private Veranstaltung",8,https://sh.ch/CMS/get/file/24bb6dc1-e502-4ffc-bafe-6e30011a4b3f
-,,2020-01-11,2020-01-17,SH,"Unbekannt",37,https://sh.ch/CMS/get/file/24bb6dc1-e502-4ffc-bafe-6e30011a4b3f
-,,2020-01-11,2020-01-17,SH,"Öffentliche Veranstaltung",0,https://sh.ch/CMS/get/file/24bb6dc1-e502-4ffc-bafe-6e30011a4b3f
-,,2020-01-18,2020-01-24,SH,"Arbeit",14,https://sh.ch/CMS/get/file/70031f6d-0a7c-4428-aa9b-c3a7f3a75b0d
-,,2020-01-18,2020-01-24,SH,"Ausland",0,https://sh.ch/CMS/get/file/70031f6d-0a7c-4428-aa9b-c3a7f3a75b0d
-,,2020-01-18,2020-01-24,SH,"Familie / Eigener Haushalt",32,https://sh.ch/CMS/get/file/70031f6d-0a7c-4428-aa9b-c3a7f3a75b0d
-,,2020-01-18,2020-01-24,SH,"Private Veranstaltung",3,https://sh.ch/CMS/get/file/70031f6d-0a7c-4428-aa9b-c3a7f3a75b0d
-,,2020-01-18,2020-01-24,SH,"Unbekannt",35,https://sh.ch/CMS/get/file/70031f6d-0a7c-4428-aa9b-c3a7f3a75b0d
-,,2020-01-18,2020-01-24,SH,"Öffentliche Veranstaltung",0,https://sh.ch/CMS/get/file/70031f6d-0a7c-4428-aa9b-c3a7f3a75b0d
-,,2020-01-25,2020-02-01,SH,"Arbeit",8,https://sh.ch/CMS/get/file/3f2b6e33-dc9c-4579-90dd-c9edaa40b5b1
-,,2020-01-25,2020-02-01,SH,"Ausland",0,https://sh.ch/CMS/get/file/3f2b6e33-dc9c-4579-90dd-c9edaa40b5b1
-,,2020-01-25,2020-02-01,SH,"Familie / Eigener Haushalt",21,https://sh.ch/CMS/get/file/3f2b6e33-dc9c-4579-90dd-c9edaa40b5b1
-,,2020-01-25,2020-02-01,SH,"Private Veranstaltung",7,https://sh.ch/CMS/get/file/3f2b6e33-dc9c-4579-90dd-c9edaa40b5b1
-,,2020-01-25,2020-02-01,SH,"Unbekannt",25,https://sh.ch/CMS/get/file/3f2b6e33-dc9c-4579-90dd-c9edaa40b5b1
-,,2020-01-25,2020-02-01,SH,"Öffentliche Veranstaltung",0,https://sh.ch/CMS/get/file/3f2b6e33-dc9c-4579-90dd-c9edaa40b5b1
 ,,2020-08-31,2020-09-06,SH,"Arbeit",1,https://sh.ch/CMS/get/file/51a75f35-21a6-44e8-9582-225f6a1a9afe
 ,,2020-08-31,2020-09-06,SH,"Ausland",0,https://sh.ch/CMS/get/file/51a75f35-21a6-44e8-9582-225f6a1a9afe
 ,,2020-08-31,2020-09-06,SH,"Familie",0,https://sh.ch/CMS/get/file/51a75f35-21a6-44e8-9582-225f6a1a9afe
@@ -107,9 +83,33 @@ date,time,date_from,date_to,canton,source,count,url
 ,,2020-12-14,2020-12-20,SH,"Private Veranstaltung",17,https://sh.ch/CMS/get/file/f93f6918-0dba-4335-a198-88bcf1303b50
 ,,2020-12-14,2020-12-20,SH,"Unbekannt",103,https://sh.ch/CMS/get/file/f93f6918-0dba-4335-a198-88bcf1303b50
 ,,2020-12-14,2020-12-20,SH,"Öffentliche Veranstaltung",2,https://sh.ch/CMS/get/file/f93f6918-0dba-4335-a198-88bcf1303b50
-,,2020-12-28,2020-01-03,SH,"Arbeit",16,https://sh.ch/CMS/get/file/0d8f57ed-4c29-488a-bf0f-66e6a4deb85b
-,,2020-12-28,2020-01-03,SH,"Ausland",1,https://sh.ch/CMS/get/file/0d8f57ed-4c29-488a-bf0f-66e6a4deb85b
-,,2020-12-28,2020-01-03,SH,"Familie / Eigener Haushalt",79,https://sh.ch/CMS/get/file/0d8f57ed-4c29-488a-bf0f-66e6a4deb85b
-,,2020-12-28,2020-01-03,SH,"Private Veranstaltung",7,https://sh.ch/CMS/get/file/0d8f57ed-4c29-488a-bf0f-66e6a4deb85b
-,,2020-12-28,2020-01-03,SH,"Unbekannt",54,https://sh.ch/CMS/get/file/0d8f57ed-4c29-488a-bf0f-66e6a4deb85b
-,,2020-12-28,2020-01-03,SH,"Öffentliche Veranstaltung",0,https://sh.ch/CMS/get/file/0d8f57ed-4c29-488a-bf0f-66e6a4deb85b
+,,2020-12-28,2021-01-03,SH,"Arbeit",16,https://sh.ch/CMS/get/file/0d8f57ed-4c29-488a-bf0f-66e6a4deb85b
+,,2020-12-28,2021-01-03,SH,"Ausland",1,https://sh.ch/CMS/get/file/0d8f57ed-4c29-488a-bf0f-66e6a4deb85b
+,,2020-12-28,2021-01-03,SH,"Familie / Eigener Haushalt",79,https://sh.ch/CMS/get/file/0d8f57ed-4c29-488a-bf0f-66e6a4deb85b
+,,2020-12-28,2021-01-03,SH,"Private Veranstaltung",7,https://sh.ch/CMS/get/file/0d8f57ed-4c29-488a-bf0f-66e6a4deb85b
+,,2020-12-28,2021-01-03,SH,"Unbekannt",54,https://sh.ch/CMS/get/file/0d8f57ed-4c29-488a-bf0f-66e6a4deb85b
+,,2020-12-28,2021-01-03,SH,"Öffentliche Veranstaltung",0,https://sh.ch/CMS/get/file/0d8f57ed-4c29-488a-bf0f-66e6a4deb85b
+,,2021-01-04,2021-01-10,SH,"Arbeit",8,https://sh.ch/CMS/get/file/10ee820d-508f-4402-aebe-d23bd5e18d92
+,,2021-01-04,2021-01-10,SH,"Ausland",0,https://sh.ch/CMS/get/file/10ee820d-508f-4402-aebe-d23bd5e18d92
+,,2021-01-04,2021-01-10,SH,"Familie / Eigener Haushalt",65,https://sh.ch/CMS/get/file/10ee820d-508f-4402-aebe-d23bd5e18d92
+,,2021-01-04,2021-01-10,SH,"Private Veranstaltung",8,https://sh.ch/CMS/get/file/10ee820d-508f-4402-aebe-d23bd5e18d92
+,,2021-01-04,2021-01-10,SH,"Unbekannt",70,https://sh.ch/CMS/get/file/10ee820d-508f-4402-aebe-d23bd5e18d92
+,,2021-01-04,2021-01-10,SH,"Öffentliche Veranstaltung",0,https://sh.ch/CMS/get/file/10ee820d-508f-4402-aebe-d23bd5e18d92
+,,2021-01-11,2021-01-17,SH,"Arbeit",20,https://sh.ch/CMS/get/file/24bb6dc1-e502-4ffc-bafe-6e30011a4b3f
+,,2021-01-11,2021-01-17,SH,"Ausland",1,https://sh.ch/CMS/get/file/24bb6dc1-e502-4ffc-bafe-6e30011a4b3f
+,,2021-01-11,2021-01-17,SH,"Familie / Eigener Haushalt",70,https://sh.ch/CMS/get/file/24bb6dc1-e502-4ffc-bafe-6e30011a4b3f
+,,2021-01-11,2021-01-17,SH,"Private Veranstaltung",8,https://sh.ch/CMS/get/file/24bb6dc1-e502-4ffc-bafe-6e30011a4b3f
+,,2021-01-11,2021-01-17,SH,"Unbekannt",37,https://sh.ch/CMS/get/file/24bb6dc1-e502-4ffc-bafe-6e30011a4b3f
+,,2021-01-11,2021-01-17,SH,"Öffentliche Veranstaltung",0,https://sh.ch/CMS/get/file/24bb6dc1-e502-4ffc-bafe-6e30011a4b3f
+,,2021-01-18,2021-01-24,SH,"Arbeit",14,https://sh.ch/CMS/get/file/70031f6d-0a7c-4428-aa9b-c3a7f3a75b0d
+,,2021-01-18,2021-01-24,SH,"Ausland",0,https://sh.ch/CMS/get/file/70031f6d-0a7c-4428-aa9b-c3a7f3a75b0d
+,,2021-01-18,2021-01-24,SH,"Familie / Eigener Haushalt",32,https://sh.ch/CMS/get/file/70031f6d-0a7c-4428-aa9b-c3a7f3a75b0d
+,,2021-01-18,2021-01-24,SH,"Private Veranstaltung",3,https://sh.ch/CMS/get/file/70031f6d-0a7c-4428-aa9b-c3a7f3a75b0d
+,,2021-01-18,2021-01-24,SH,"Unbekannt",35,https://sh.ch/CMS/get/file/70031f6d-0a7c-4428-aa9b-c3a7f3a75b0d
+,,2021-01-18,2021-01-24,SH,"Öffentliche Veranstaltung",0,https://sh.ch/CMS/get/file/70031f6d-0a7c-4428-aa9b-c3a7f3a75b0d
+,,2021-01-25,2021-02-01,SH,"Arbeit",8,https://sh.ch/CMS/get/file/3f2b6e33-dc9c-4579-90dd-c9edaa40b5b1
+,,2021-01-25,2021-02-01,SH,"Ausland",0,https://sh.ch/CMS/get/file/3f2b6e33-dc9c-4579-90dd-c9edaa40b5b1
+,,2021-01-25,2021-02-01,SH,"Familie / Eigener Haushalt",21,https://sh.ch/CMS/get/file/3f2b6e33-dc9c-4579-90dd-c9edaa40b5b1
+,,2021-01-25,2021-02-01,SH,"Private Veranstaltung",7,https://sh.ch/CMS/get/file/3f2b6e33-dc9c-4579-90dd-c9edaa40b5b1
+,,2021-01-25,2021-02-01,SH,"Unbekannt",25,https://sh.ch/CMS/get/file/3f2b6e33-dc9c-4579-90dd-c9edaa40b5b1
+,,2021-01-25,2021-02-01,SH,"Öffentliche Veranstaltung",0,https://sh.ch/CMS/get/file/3f2b6e33-dc9c-4579-90dd-c9edaa40b5b1
