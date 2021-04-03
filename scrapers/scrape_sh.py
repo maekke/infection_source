@@ -81,7 +81,7 @@ def get_weekly_bulletin_url():
     url = base_url + '/CMS/content.jsp?contentid=3209198&language=DE&_=1601060488274'
     data = sc.download_json(url)
     data = data['data_post_content']
-    data = BeautifulSoup(data, 'html.parser').find(string=re.compile(r'Hier finden Sie den aktuellen Lagebericht des Covid-19 Teams Schaffhausen')).find_next('a')
+    data = BeautifulSoup(data, 'html.parser').find('a', string=re.compile(r'Lagebericht aktuell'))
     data = data.get('contentid')
     url = base_url + f'/CMS/content.jsp?contentid={data}&language=DE'
     data = sc.download_json(url)
