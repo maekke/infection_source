@@ -13,7 +13,7 @@ def parse_bs_date(date_str):
 
 
 def parse_bs_short_date(date_str):
-    return arrow.get(date_str, 'D.MM.YYYY', locale='de_CH').datetime
+    return arrow.get(date_str, 'D.M.YYYY', locale='de_CH').datetime
 
 
 def parse_number(number):
