@@ -12,16 +12,14 @@ def parse_date(date_str):
 
 
 def scrape_zh():
-    url = 'https://raw.githubusercontent.com/openZH/covid_19_contact_tracing_ZH/master/data/Ansteckungswege.csv'
+    url = 'https://raw.githubusercontent.com/openZH/covid_19_contact_tracing_ZH/master/data/Ansteckungswege_2021.csv'
     content = sc.download(url)
     reader = csv.DictReader(StringIO(content), delimiter=',')
     for row in reader:
         isd = sc.InfectionSourceData('ZH', url)
         isd.date_from = parse_date(row['from'])
         isd.date_to = parse_date(row['until'])
-        isd.source = row['context_cat']
-        if isd.source == '':
-            isd.source = row['context_bool']
+        isd.source = f"{row['context_cat']} ({row['context_bool']})"
         isd.count = row['n_conf']
         print(isd)
 
