@@ -3427,3 +3427,51 @@ date,time,date_from,date_to,canton,source,count,url
 ,,2022-01-31,2022-02-06,ZH,"Veranstaltung / Feier < 300 Pers. (Vermutet)",60,https://raw.githubusercontent.com/openZH/covid_19_contact_tracing_ZH/master/data/Ansteckungswege_2021.csv
 ,,2022-01-31,2022-02-06,ZH,"Verein (Eindeutig)",11,https://raw.githubusercontent.com/openZH/covid_19_contact_tracing_ZH/master/data/Ansteckungswege_2021.csv
 ,,2022-01-31,2022-02-06,ZH,"Verein (Vermutet)",9,https://raw.githubusercontent.com/openZH/covid_19_contact_tracing_ZH/master/data/Ansteckungswege_2021.csv
+,,2022-02-07,2022-02-13,ZH,"Arbeitsplatz (Eindeutig)",1168,https://raw.githubusercontent.com/openZH/covid_19_contact_tracing_ZH/master/data/Ansteckungswege_2021.csv
+,,2022-02-07,2022-02-13,ZH,"Arbeitsplatz (Vermutet)",2111,https://raw.githubusercontent.com/openZH/covid_19_contact_tracing_ZH/master/data/Ansteckungswege_2021.csv
+,,2022-02-07,2022-02-13,ZH,"Armee / Zivilschutz (Eindeutig)",8,https://raw.githubusercontent.com/openZH/covid_19_contact_tracing_ZH/master/data/Ansteckungswege_2021.csv
+,,2022-02-07,2022-02-13,ZH,"Armee / Zivilschutz (Vermutet)",15,https://raw.githubusercontent.com/openZH/covid_19_contact_tracing_ZH/master/data/Ansteckungswege_2021.csv
+,,2022-02-07,2022-02-13,ZH,"Club / Bar (Eindeutig)",18,https://raw.githubusercontent.com/openZH/covid_19_contact_tracing_ZH/master/data/Ansteckungswege_2021.csv
+,,2022-02-07,2022-02-13,ZH,"Club / Bar (Vermutet)",58,https://raw.githubusercontent.com/openZH/covid_19_contact_tracing_ZH/master/data/Ansteckungswege_2021.csv
+,,2022-02-07,2022-02-13,ZH,"Eigener Haushalt (Eindeutig)",4817,https://raw.githubusercontent.com/openZH/covid_19_contact_tracing_ZH/master/data/Ansteckungswege_2021.csv
+,,2022-02-07,2022-02-13,ZH,"Eigener Haushalt (Vermutet)",1490,https://raw.githubusercontent.com/openZH/covid_19_contact_tracing_ZH/master/data/Ansteckungswege_2021.csv
+,,2022-02-07,2022-02-13,ZH,"Einkaufen (Läden/Markt) (Eindeutig)",49,https://raw.githubusercontent.com/openZH/covid_19_contact_tracing_ZH/master/data/Ansteckungswege_2021.csv
+,,2022-02-07,2022-02-13,ZH,"Einkaufen (Läden/Markt) (Vermutet)",207,https://raw.githubusercontent.com/openZH/covid_19_contact_tracing_ZH/master/data/Ansteckungswege_2021.csv
+,,2022-02-07,2022-02-13,ZH,"Friseur / Massage o.ä. (Eindeutig)",2,https://raw.githubusercontent.com/openZH/covid_19_contact_tracing_ZH/master/data/Ansteckungswege_2021.csv
+,,2022-02-07,2022-02-13,ZH,"Friseur / Massage o.ä. (Vermutet)",1,https://raw.githubusercontent.com/openZH/covid_19_contact_tracing_ZH/master/data/Ansteckungswege_2021.csv
+,,2022-02-07,2022-02-13,ZH,"Hotel oder andere Unterkunft (Eindeutig)",23,https://raw.githubusercontent.com/openZH/covid_19_contact_tracing_ZH/master/data/Ansteckungswege_2021.csv
+,,2022-02-07,2022-02-13,ZH,"Hotel oder andere Unterkunft (Vermutet)",23,https://raw.githubusercontent.com/openZH/covid_19_contact_tracing_ZH/master/data/Ansteckungswege_2021.csv
+,,2022-02-07,2022-02-13,ZH,"Im Haushalt von Freunden / Familie (Eindeutig)",1231,https://raw.githubusercontent.com/openZH/covid_19_contact_tracing_ZH/master/data/Ansteckungswege_2021.csv
+,,2022-02-07,2022-02-13,ZH,"Im Haushalt von Freunden / Familie (Vermutet)",806,https://raw.githubusercontent.com/openZH/covid_19_contact_tracing_ZH/master/data/Ansteckungswege_2021.csv
+,,2022-02-07,2022-02-13,ZH,"Kino / Theater / Konzert (Eindeutig)",6,https://raw.githubusercontent.com/openZH/covid_19_contact_tracing_ZH/master/data/Ansteckungswege_2021.csv
+,,2022-02-07,2022-02-13,ZH,"Kino / Theater / Konzert (Vermutet)",16,https://raw.githubusercontent.com/openZH/covid_19_contact_tracing_ZH/master/data/Ansteckungswege_2021.csv
+,,2022-02-07,2022-02-13,ZH,"Krippe (Eindeutig)",15,https://raw.githubusercontent.com/openZH/covid_19_contact_tracing_ZH/master/data/Ansteckungswege_2021.csv
+,,2022-02-07,2022-02-13,ZH,"Krippe (Vermutet)",30,https://raw.githubusercontent.com/openZH/covid_19_contact_tracing_ZH/master/data/Ansteckungswege_2021.csv
+,,2022-02-07,2022-02-13,ZH,"Medizin. Einrichtung (Eindeutig)",12,https://raw.githubusercontent.com/openZH/covid_19_contact_tracing_ZH/master/data/Ansteckungswege_2021.csv
+,,2022-02-07,2022-02-13,ZH,"Medizin. Einrichtung (Vermutet)",26,https://raw.githubusercontent.com/openZH/covid_19_contact_tracing_ZH/master/data/Ansteckungswege_2021.csv
+,,2022-02-07,2022-02-13,ZH,"Obligatorische Schule (Eindeutig)",110,https://raw.githubusercontent.com/openZH/covid_19_contact_tracing_ZH/master/data/Ansteckungswege_2021.csv
+,,2022-02-07,2022-02-13,ZH,"Obligatorische Schule (Vermutet)",256,https://raw.githubusercontent.com/openZH/covid_19_contact_tracing_ZH/master/data/Ansteckungswege_2021.csv
+,,2022-02-07,2022-02-13,ZH,"Ohne Angabe (Eindeutig)",3,https://raw.githubusercontent.com/openZH/covid_19_contact_tracing_ZH/master/data/Ansteckungswege_2021.csv
+,,2022-02-07,2022-02-13,ZH,"Ohne Angabe (Vermutet)",7774,https://raw.githubusercontent.com/openZH/covid_19_contact_tracing_ZH/master/data/Ansteckungswege_2021.csv
+,,2022-02-07,2022-02-13,ZH,"Pflege- / Altersheim (Eindeutig)",11,https://raw.githubusercontent.com/openZH/covid_19_contact_tracing_ZH/master/data/Ansteckungswege_2021.csv
+,,2022-02-07,2022-02-13,ZH,"Pflege- / Altersheim (Vermutet)",11,https://raw.githubusercontent.com/openZH/covid_19_contact_tracing_ZH/master/data/Ansteckungswege_2021.csv
+,,2022-02-07,2022-02-13,ZH,"Reise Ausland (Eindeutig)",40,https://raw.githubusercontent.com/openZH/covid_19_contact_tracing_ZH/master/data/Ansteckungswege_2021.csv
+,,2022-02-07,2022-02-13,ZH,"Reise Ausland (Vermutet)",64,https://raw.githubusercontent.com/openZH/covid_19_contact_tracing_ZH/master/data/Ansteckungswege_2021.csv
+,,2022-02-07,2022-02-13,ZH,"Reise Schweiz (Eindeutig)",84,https://raw.githubusercontent.com/openZH/covid_19_contact_tracing_ZH/master/data/Ansteckungswege_2021.csv
+,,2022-02-07,2022-02-13,ZH,"Reise Schweiz (Vermutet)",275,https://raw.githubusercontent.com/openZH/covid_19_contact_tracing_ZH/master/data/Ansteckungswege_2021.csv
+,,2022-02-07,2022-02-13,ZH,"Religiöses / Beerdigungen (Eindeutig)",2,https://raw.githubusercontent.com/openZH/covid_19_contact_tracing_ZH/master/data/Ansteckungswege_2021.csv
+,,2022-02-07,2022-02-13,ZH,"Religiöses / Beerdigungen (Vermutet)",2,https://raw.githubusercontent.com/openZH/covid_19_contact_tracing_ZH/master/data/Ansteckungswege_2021.csv
+,,2022-02-07,2022-02-13,ZH,"Restaurant (Eindeutig)",22,https://raw.githubusercontent.com/openZH/covid_19_contact_tracing_ZH/master/data/Ansteckungswege_2021.csv
+,,2022-02-07,2022-02-13,ZH,"Restaurant (Vermutet)",51,https://raw.githubusercontent.com/openZH/covid_19_contact_tracing_ZH/master/data/Ansteckungswege_2021.csv
+,,2022-02-07,2022-02-13,ZH,"Sekundarstufe II / Hochschule / Weiterbildungsstätte (Eindeutig)",17,https://raw.githubusercontent.com/openZH/covid_19_contact_tracing_ZH/master/data/Ansteckungswege_2021.csv
+,,2022-02-07,2022-02-13,ZH,"Sekundarstufe II / Hochschule / Weiterbildungsstätte (Vermutet)",42,https://raw.githubusercontent.com/openZH/covid_19_contact_tracing_ZH/master/data/Ansteckungswege_2021.csv
+,,2022-02-07,2022-02-13,ZH,"Sonstige (Eindeutig)",606,https://raw.githubusercontent.com/openZH/covid_19_contact_tracing_ZH/master/data/Ansteckungswege_2021.csv
+,,2022-02-07,2022-02-13,ZH,"Sonstige (Vermutet)",1219,https://raw.githubusercontent.com/openZH/covid_19_contact_tracing_ZH/master/data/Ansteckungswege_2021.csv
+,,2022-02-07,2022-02-13,ZH,"Sport im Freien (Eindeutig)",14,https://raw.githubusercontent.com/openZH/covid_19_contact_tracing_ZH/master/data/Ansteckungswege_2021.csv
+,,2022-02-07,2022-02-13,ZH,"Sport im Freien (Vermutet)",70,https://raw.githubusercontent.com/openZH/covid_19_contact_tracing_ZH/master/data/Ansteckungswege_2021.csv
+,,2022-02-07,2022-02-13,ZH,"Sport in der Halle (Eindeutig)",34,https://raw.githubusercontent.com/openZH/covid_19_contact_tracing_ZH/master/data/Ansteckungswege_2021.csv
+,,2022-02-07,2022-02-13,ZH,"Sport in der Halle (Vermutet)",85,https://raw.githubusercontent.com/openZH/covid_19_contact_tracing_ZH/master/data/Ansteckungswege_2021.csv
+,,2022-02-07,2022-02-13,ZH,"Veranstaltung / Feier < 300 Pers. (Eindeutig)",33,https://raw.githubusercontent.com/openZH/covid_19_contact_tracing_ZH/master/data/Ansteckungswege_2021.csv
+,,2022-02-07,2022-02-13,ZH,"Veranstaltung / Feier < 300 Pers. (Vermutet)",60,https://raw.githubusercontent.com/openZH/covid_19_contact_tracing_ZH/master/data/Ansteckungswege_2021.csv
+,,2022-02-07,2022-02-13,ZH,"Verein (Eindeutig)",5,https://raw.githubusercontent.com/openZH/covid_19_contact_tracing_ZH/master/data/Ansteckungswege_2021.csv
+,,2022-02-07,2022-02-13,ZH,"Verein (Vermutet)",15,https://raw.githubusercontent.com/openZH/covid_19_contact_tracing_ZH/master/data/Ansteckungswege_2021.csv
